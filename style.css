@@ -1,0 +1,90 @@
+body 
+{
+    background-color: #A0C5E4;
+    background-image: url(snowflakes.svg);
+    display: grid;
+    place-items: center;
+}
+h1
+{
+    color: #003049;
+    font-family: 'Source Serif Pro';
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+
+    
+
+.Headder
+{
+    
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Postcard
+{
+    color: #CFE9FD;
+    padding: 5px;
+    margin-bottom: 200px;
+   
+}
+
+.Photo
+{
+    display: flex;
+    margin: 15px; 
+    font-family: 'Source Serif Pro';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    align-self: left;
+    color: #003049;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#Msg2
+{
+    font-family: 'Source Serif Pro';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: #003049;
+    color: #CFE9FD;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#Signa
+{
+    font-family: 'Source Serif Pro';
+    color: #003049;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media(max-width: 768px)
+{
+    .Headder
+    {
+        width: 95%;
+    }
+    .Photo
+    {
+        width: 95%;
+    }
+    .Postcard
+    {
+        width: 95%;
+    }
+    
+}
